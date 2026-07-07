@@ -1,0 +1,21 @@
+/* Live Preview Iframe Page Styles */
+.live-preview-mode {
+    font-family: var(--wp--preset--font-family--inter, 'Inter', sans-serif);
+}
+
+.preview-top-bar {
+    height: 60px;
+}
+
+.iframe-wrapper {
+    height: calc(100vh - 60px);
+}
+
+#preview-frame {
+    transition: width 0.3s ease, height 0.3s ease;
+    border: none;
+}
+
+.device-toggles button.active {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}

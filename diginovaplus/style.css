@@ -1,0 +1,226 @@
+/*
+Theme Name: DigiNova Plus
+Theme URI: https://themeforest.net
+Author: Shamol Murmu
+Author URI: https://yoursite.com
+Description: Premium Digital Products & SaaS Marketplace WordPress Theme. Built for selling software, apps, HTML templates, plugins, and digital products. Fully compatible with Elementor, WooCommerce, and Easy Digital Downloads.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 8.0
+License: Envato Regular/Extended License
+License URI: https://themeforest.net/licenses
+Text Domain: diginovaplus
+Tags: e-commerce, marketplace, saas, digital-products, elementor, woocommerce, dark-mode, rtl-language-support
+*/
+
+:root {
+	/* Colors */
+	--diginovaplus-primary: #6c63ff;
+	--diginovaplus-primary-rgb: 108, 99, 255;
+	--diginovaplus-secondary: #ff6b6b;
+	--diginovaplus-dark: #0f0e17;
+	--diginovaplus-light-bg: #f8f7ff;
+	--diginovaplus-card-bg: #ffffff;
+	--diginovaplus-text: #2d2d2d;
+	--diginovaplus-text-muted: #6b7280;
+	--diginovaplus-success: #10b981;
+	--diginovaplus-warning: #f59e0b;
+	--diginovaplus-border: #e5e7eb;
+
+	/* Typography */
+	--diginovaplus-font-heading: 'Plus Jakarta Sans', sans-serif;
+	--diginovaplus-font-body: 'Inter', sans-serif;
+	--diginovaplus-font-code: 'JetBrains Mono', monospace;
+}
+
+[data-theme="dark"] {
+	--diginovaplus-light-bg: #0f0e17;
+	--diginovaplus-card-bg: #1a1a24;
+	--diginovaplus-text: #f3f4f6;
+	--diginovaplus-text-muted: #9ca3af;
+	--diginovaplus-border: #374151;
+}
+
+/* Base Reset & Typography */
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: var(--diginovaplus-font-body);
+	color: var(--diginovaplus-text);
+	background-color: var(--diginovaplus-light-bg);
+	line-height: 1.6;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--diginovaplus-font-heading);
+	color: var(--diginovaplus-text);
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+a {
+	color: var(--diginovaplus-primary);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover, a:focus {
+	color: var(--diginovaplus-secondary);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Utility Classes */
+.text-primary { color: var(--diginovaplus-primary); }
+.text-secondary { color: var(--diginovaplus-secondary); }
+.bg-primary { background-color: var(--diginovaplus-primary); }
+.bg-secondary { background-color: var(--diginovaplus-secondary); }
+
+/* Screen Reader Text */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+/* Premium Header Styles */
+.site-header {
+	background: var(--diginovaplus-card-bg);
+	box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+	position: sticky;
+	top: 0;
+	z-index: 1020;
+}
+
+.site-title {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: -0.5px;
+}
+
+.site-title a {
+	color: var(--diginovaplus-primary);
+	text-decoration: none;
+}
+
+.site-description {
+	display: none; /* Hide long tagline to save space */
+}
+
+.navbar-nav .nav-link {
+	font-weight: 600;
+	color: var(--diginovaplus-text);
+	padding: 1rem 1.25rem !important;
+	transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .active > .nav-link {
+	color: var(--diginovaplus-primary);
+}
+
+.header-actions {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-left: 1.5rem;
+}
+
+.header-actions button, .header-actions a {
+	background: transparent;
+	border: none;
+	color: var(--diginovaplus-text-muted);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.header-actions button:hover, .header-actions a:hover {
+	background: rgba(108, 99, 255, 0.1);
+	color: var(--diginovaplus-primary);
+}
+
+.cart-icon {
+	position: relative;
+}
+
+.cart-count {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: var(--diginovaplus-secondary);
+	color: #fff;
+	font-size: 0.65rem;
+	font-weight: bold;
+	width: 18px;
+	height: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transform: translate(25%, -25%);
+}
+
+.dropdown-menu {
+	border: none;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	border-radius: 12px;
+	padding: 0.5rem;
+}
+
+.dropdown-item {
+	border-radius: 8px;
+	font-weight: 500;
+	padding: 0.5rem 1rem;
+	transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+	background: rgba(108, 99, 255, 0.05);
+	color: var(--diginovaplus-primary);
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>DigiNova Plus Demo</title>
+	<link>http://localhost</link>
+	<description>Just another WordPress site</description>
+	<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://localhost</wp:base_site_url>
+	<wp:base_blog_url>http://localhost</wp:base_blog_url>
+
+	<!-- Categories/Taxonomies -->
+	<wp:term>
+		<wp:term_id>10</wp:term_id>
+		<wp:term_taxonomy>diginovaplus_category</wp:term_taxonomy>
+		<wp:term_slug>themes</wp:term_slug>
+		<wp:term_name><![CDATA[Themes]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>11</wp:term_id>
+		<wp:term_taxonomy>diginovaplus_category</wp:term_taxonomy>
+		<wp:term_slug>plugins</wp:term_slug>
+		<wp:term_name><![CDATA[Plugins]]></wp:term_name>
+	</wp:term>
+
+	<!-- Home Page SaaS -->
+	<item>
+		<title>Home SaaS</title>
+		<link>http://localhost/home-saas/</link>
+		<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Shamol Murmu]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/?page_id=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to DigiNova Plus SaaS Homepage.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-08 00:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-08 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-saas]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-home-saas.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- Home Page Marketplace -->
+	<item>
+		<title>Home Marketplace</title>
+		<link>http://localhost/home-marketplace/</link>
+		<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Shamol Murmu]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/?page_id=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to DigiNova Plus Marketplace Homepage.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-08 00:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-08 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-marketplace]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-home-marketplace.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- Home Page Creative -->
+	<item>
+		<title>Home Creative</title>
+		<link>http://localhost/home-creative/</link>
+		<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Shamol Murmu]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/?page_id=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to DigiNova Plus Creative Homepage.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-08 00:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-08 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-creative]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-home-creative.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- Sample Product -->
+	<item>
+		<title>Premium Admin Template</title>
+		<link>http://localhost/product/premium-admin-template/</link>
+		<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Shamol Murmu]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/?post_type=diginovaplus_products&#038;p=201</guid>
+		<description></description>
+		<content:encoded><![CDATA[A premium admin template.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>201</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-08 00:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-08 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[premium-admin-template]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[diginovaplus_products]]></wp:post_type>
+		<category domain="diginovaplus_category" nicename="themes"><![CDATA[Themes]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_diginovaplus_regular_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[49]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_diginovaplus_sales_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[120]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>
